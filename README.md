@@ -5,8 +5,7 @@ Paper: [GPU Computation of the Euler Characteristic Curve for Imaging Data](http
 
 ## Google Colab
 
-A **TopoGPU-demo** notebook is provided to make it easy to try TopoGPU without installing it locally.
-
+We provide a **GPU-EC-demo** notebook on Google Colab that demonstrates how to use GPU-ECC.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/seravee08/GPU-ECC-GPU-Computation-of-the-Euler-Characteristic-Curve-for-Imaging-Data/blob/main/GPU_ECC_demo.ipynb)
 
 The notebook provides a step-by-step workflow:
