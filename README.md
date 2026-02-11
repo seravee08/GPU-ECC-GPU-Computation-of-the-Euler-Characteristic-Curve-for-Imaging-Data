@@ -1,4 +1,4 @@
-# GPU-ECC-GPU-Computation-of-the-Euler-Characteristic-Curve-for-Imaging-Data
+# GPU-ECC: GPU-Computation-of-the-Euler-Characteristic-Curve-for-Imaging-Data
 CUDA-accelerated computation of Euler Characteristic Curves. <br/>
 Authors: Fan Wang, Hubert Wagner, Chao Chen <br/>
 
