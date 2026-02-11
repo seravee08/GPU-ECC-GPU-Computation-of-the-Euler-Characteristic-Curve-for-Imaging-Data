@@ -10,7 +10,7 @@ If you use GPU-ECC in your work, please cite both papers.
 
 GPU-ECC is cross-platform (Windows and Linux) and requires only **CUDA >= 12.6** to compile and run. We provide prebuilt binaries in two forms:
 
-### ➡️ Python extension
+### ☑️ Python extension
 Install with 
 ```bash
 pip install https://github.com/seravee08/GPU-ECC-GPU-Computation-of-the-Euler-Characteristic-Curve-for-Imaging-Data/raw/main/releases/gpuecc-0.1.0-cp312-cp312-linux_x86_64.whl
@@ -21,7 +21,7 @@ import gpuecc
 ```
 A complete usage example is provided in the **Google Colab** section.
 
-### ➡️ C++ binary (run from command line)
+### ☑️ C++ binary (run from command line)
 From the folder containing the executable, run:<br/>
 ```bash
 GPU_ECC.exe [mode] [input] [output] [height] [width] [depth]
@@ -41,7 +41,7 @@ An example command:
 ```
 The C++ binary is included in the Docker image—see the **Docker Image** section for details.
 
-### ➡️ Inputs/Outputs
+### ☑️ Inputs/Outputs
 GPU-ECC accepts files with floating numbers in binary form. The filename extension should be .dat. We use the following code snippet to write data that is used as test inputs for GPU ECC:
 ```
 std::ofstream wstream(filename.c_str(), std::ios::out | std::ios::binary);
@@ -79,7 +79,7 @@ Inside the Dokcer image, we provide:
 - A sample notebook demonstrating how to use GPU-ECC
 - Sample data
 
-### ➡️ Prerequisites
+### ☑️ Prerequisites
 **Windows 10/11**
 - Docker Desktop with WSL 2 backend enabled.
 - NVIDIA GPU + up-to-date Windows NVIDIA driver.
@@ -88,7 +88,7 @@ Inside the Dokcer image, we provide:
 - NVIDIA GPU + driver installed on the host.
 - NVIDIA Container Toolkit installed and configured for Docker.
 
-### ➡️ Run Docker
+### ☑️ Run Docker
 - Pull image: ```docker pull seravee08/gpuecc:latest```
 - Create container and enter shell (Replace PATH_TO_DATA with an absolute path):
 ```command
@@ -104,7 +104,7 @@ Open your browser and navigate to: http://localhost:8888/
 
 Rquires **CUDA >= 12.6**.
 
-### ➡️ Windows 10/11
+### ☑️ Windows 10/11
 Requires **CMake 4.2.3** and **Visual Studio 2022**. Build steps:
 1. In **CMake GUI**, set **Where is the source code** to the folder containing the source files and `CMakeLists.txt`  
    Example: `C:/GPU-ECC/sources`
@@ -114,7 +114,7 @@ Requires **CMake 4.2.3** and **Visual Studio 2022**. Build steps:
 4. Click **Generate**
 5. Open the generated `.sln` file in the build folder with **Visual Studio 2022**, then build the project.
 
-### ➡️ Linux
+### ☑️ Linux
 From the folder containing the source files and `Makefile`, run:
 
 ```bash
