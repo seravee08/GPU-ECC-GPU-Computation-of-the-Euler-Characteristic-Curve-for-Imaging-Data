@@ -3,11 +3,11 @@ CUDA-accelerated computation of Euler Characteristic Curves. <br/>
 Authors: Fan Wang, Hubert Wagner, Chao Chen <br/>
 Paper: [GPU Computation of the Euler Characteristic Curve for Imaging Data](https://arxiv.org/pdf/2203.09087.pdf)
 
-## Introduction
+## Introduction ##
 
 GPU-ECC is cross-platform (Windows and Linux) and requires only **CUDA >= 12.6** to compile and run. We provide prebuilt binaries in two forms:
 
-### Python extension ###
+### Python extension
 Install with 
 ```bash
 pip install https://github.com/seravee08/GPU-ECC-GPU-Computation-of-the-Euler-Characteristic-Curve-for-Imaging-Data/raw/main/releases/gpuecc-0.1.0-cp312-cp312-linux_x86_64.whl
