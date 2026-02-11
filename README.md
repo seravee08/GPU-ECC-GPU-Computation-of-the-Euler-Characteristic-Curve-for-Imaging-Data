@@ -50,7 +50,7 @@ wstream.close();
 ```
 Some examples are provided under folder "data". ECC GPU writes the ECC results into .txt files.
 
-## Google Colab
+## 1️⃣ Google Colab
 
 We provide a **GPU-ECC-demo** notebook on Google Colab that demonstrates how to use GPU-ECC.
 
@@ -70,7 +70,7 @@ The notebook provides a step-by-step workflow:
    - Creates a 3D GPU-ECC instance and computes ECC from an input NumPy array.
    - (Optional) Saves the results to a file.
 
-## Docker Image
+## 2️⃣ Docker Image
 
 Inside the Dokcer image, we provide:
 - Source code under ```:/GPU-ECC/source```
@@ -100,7 +100,7 @@ jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookAp
 ```
 Open your browser and navigate to: http://localhost:8888/
 
-## Compile from source
+## 3️⃣ Compile from source
 
 Rquires **CUDA >= 12.6**.
 
@@ -122,7 +122,7 @@ make -j
 ```
 The executable will be generated at: build/GPU_ECC
 
-## Citation ##
+## 4️⃣ Citation ##
     @inproceedings{DBLP:conf/compgeom/0010W022,
       author    = {Fan Wang and
                    Hubert Wagner and
