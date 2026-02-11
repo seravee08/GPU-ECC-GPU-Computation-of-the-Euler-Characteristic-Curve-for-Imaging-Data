@@ -36,7 +36,7 @@ Arguments:
 </pre>
 An example command:
 ```command
-./GPU_ECC b C:/input_directory C:/output_directory 256 256 0`
+./GPU_ECC b C:/input_directory C:/output_directory 256 256 0
 ```
 The C++ binary is included in the Docker image—see the **Docker Image** section for details.
 
