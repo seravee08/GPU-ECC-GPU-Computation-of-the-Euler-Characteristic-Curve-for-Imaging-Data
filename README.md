@@ -19,9 +19,6 @@ From the folder containing the executable, run:<br/>
 ```bash
 GPU_ECC.exe [mode] [input] [output] [height] [width] [depth]
 ```
-
-
-`GPU_ECC.exe [mode] [input_name] [output_name] [height] [width] [depth]` <br/>
 Arguments:
 <pre>
 --mode:         GPU ECC can compute for a single file or for a batch of files. Use 's' for single mode or 'b' for batch mode.
