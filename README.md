@@ -12,7 +12,7 @@ Install with
 ```bash
 pip install https://github.com/seravee08/GPU-ECC-GPU-Computation-of-the-Euler-Characteristic-Curve-for-Imaging-Data/raw/main/releases/gpuecc-0.1.0-cp312-cp312-linux_x86_64.whl
 ```
-A complete usage example is provided in the Google Colab section.
+A complete usage example is provided in the **Google Colab** section.
 
 ### C++ binary (run from command line)
 From the folder containing the executable, run:<br/>
@@ -29,9 +29,8 @@ Arguments:
 --depth:        depth of the input file. In case of 2D file, set depth to 0.
 </pre>
 An example command: <br/>
-`GPU_ECC.exe b1 C:/input_directory C:/output_directory 256 256 0` <br/>
-
-
+`./GPU_ECC b C:/input_directory C:/output_directory 256 256 0` <br/>
+The C++ binary is included in the Docker image—see the **Docker Image** section for details.
 
 ## Google Colab
 
