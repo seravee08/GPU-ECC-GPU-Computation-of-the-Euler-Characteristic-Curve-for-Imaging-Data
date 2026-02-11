@@ -135,7 +135,7 @@ The executable will be generated at: build/GPU_ECC
       bibsource = {dblp computer science bibliography, https://dblp.org}
       }
 
-      @article{Wang_Wagner_Chen_2023,
+    @article{Wang_Wagner_Chen_2023,
       title     ={GPU computation of the Euler characteristic curve for imaging data},
       volume    ={14},
       url       ={https://jocg.org/index.php/jocg/article/view/4470},
