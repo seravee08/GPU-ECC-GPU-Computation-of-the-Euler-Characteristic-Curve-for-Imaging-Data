@@ -133,4 +133,4 @@ The executable will be generated at: build/GPU_ECC
       timestamp = {Wed, 01 Jun 2022 17:01:01 +0200},
       biburl    = {https://dblp.org/rec/conf/compgeom/0010W022.bib},
       bibsource = {dblp computer science bibliography, https://dblp.org}
-}
+      }
