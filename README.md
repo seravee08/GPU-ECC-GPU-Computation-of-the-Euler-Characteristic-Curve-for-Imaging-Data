@@ -15,9 +15,13 @@ pip install https://github.com/seravee08/GPU-ECC-GPU-Computation-of-the-Euler-Ch
 ```
 A complete usage example is provided in the Google Colab section.
 
+### C++ binary (run from command line)
+From the folder containing the executable, run:<br/>
+```bash
+GPU_ECC.exe [mode] [input] [output] [height] [width] [depth]
+```
 
-- Python extension, installed with ```pip install https://github.com/seravee08/GPU-ECC-GPU-Computation-of-the-Euler-Characteristic-Curve-for-Imaging-Data/raw/main/releases/gpuecc-0.1.0-cp312-cp312-linux_x86_64.whl``` Detailed use of python extension can be found under "Google Colab" tab.
-- C++ bindary, to run GPU ECC from command line, go into the folder where the executable is located and type: <br/>
+
 `GPU_ECC.exe [mode] [input_name] [output_name] [height] [width] [depth]` <br/>
 Arguments:
 <pre>
