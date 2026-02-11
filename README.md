@@ -4,6 +4,7 @@ Authors: Fan Wang, Hubert Wagner, Chao Chen <br/>
 Paper: [GPU Computation of the Euler Characteristic Curve for Imaging Data](https://arxiv.org/pdf/2203.09087.pdf)
 
 ## Google Colab
+============
 
 We provide a **GPU-ECC-demo** notebook on Google Colab that demonstrates how to use GPU-ECC.
 
