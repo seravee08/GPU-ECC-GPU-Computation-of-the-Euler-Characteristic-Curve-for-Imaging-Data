@@ -91,6 +91,14 @@ docker run --name gpuecc -it --gpus=all -p 8888:8888 --mount type=bind,source="P
 Rquires **CUDA >= 12.6**.
 
 ### Windows 10/11
+Requires **CMake 4.2.3** and **Visual Studio 2022**. Build steps:
+1. In **CMake GUI**, set **Where is the source code** to the folder containing the source files and `CMakeLists.txt`  
+   Example: `C:/GPU-ECC/sources`
+2. Set **Where to build the binaries** to your desired build directory  
+   Example: `C:/GPU-ECC/sources/build`
+3. Click **Configure**
+4. Click **Generate**
+5. Open the generated `.sln` file in the build folder with **Visual Studio 2022**, then build the project.
 
 ### Linux
 From the folder containing the source files and `Makefile`, run:
