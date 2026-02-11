@@ -43,8 +43,7 @@ Inside the Dokcer image, we provide:
 
 ### Run Docker
 - Pull image: ```docker pull seravee08/gpuecc:latest```
-- Create container and enter shell (Replace PATH_TO_DATA with an absolute Windows path):
+- Create container and enter shell (Replace PATH_TO_DATA with an absolute path):
 ```command
-docker run --name gpuecc -it --gpus=all -p 8888:8888 --mount type=bind,source="E:\WorkBench\GPU-ECC",target=/workspace -w /GPU-ECC --entrypoint /bin/bash seravee08/gpuecc:latest
+docker run --name gpuecc -it --gpus=all -p 8888:8888 --mount type=bind,source="PATH_TO_DATA",target=/workspace -w /GPU-ECC --entrypoint /bin/bash seravee08/gpuecc:latest
 ```
-
