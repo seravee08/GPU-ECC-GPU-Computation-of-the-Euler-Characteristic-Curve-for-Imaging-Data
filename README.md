@@ -85,6 +85,11 @@ Inside the Dokcer image, we provide:
 ```command
 docker run --name gpuecc -it --gpus=all -p 8888:8888 --mount type=bind,source="PATH_TO_DATA",target=/workspace -w /GPU-ECC --entrypoint /bin/bash seravee08/gpuecc:latest
 ```
+- Launch jupyter notebook:
+```bash
+jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password=''
+```
+Open your browser and navigate to: http://localhost:8888/
 
 ## Compile from source
 
