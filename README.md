@@ -6,7 +6,7 @@ Conference paper: [GPU Computation of the Euler Characteristic Curve for Imaging
 Journal paper with significant improvements: [GPU Computation of the Eule Characteristic Curve for Imaging Data](https://jocg.org/index.php/jocg/article/view/4470/3397)<br/>
 If you use GPU-ECC in your work, please cite both papers.
 
-0️⃣ ## Introduction
+## 0️⃣ Introduction
 
 GPU-ECC is cross-platform (Windows and Linux) and requires only **CUDA >= 12.6** to compile and run. We provide prebuilt binaries in two forms:
 
