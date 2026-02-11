@@ -3,10 +3,8 @@ CUDA-accelerated computation of Euler Characteristic Curves. <br/>
 Authors: Fan Wang, Hubert Wagner, Chao Chen <br/>
 Paper: [GPU Computation of the Euler Characteristic Curve for Imaging Data](https://arxiv.org/pdf/2203.09087.pdf)
 
+<hr/>
 ## Google Colab
-<hr/>
-<hr/>
-
 We provide a **GPU-ECC-demo** notebook on Google Colab that demonstrates how to use GPU-ECC.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/seravee08/GPU-ECC-GPU-Computation-of-the-Euler-Characteristic-Curve-for-Imaging-Data/blob/main/GPU_ECC_demo.ipynb)
