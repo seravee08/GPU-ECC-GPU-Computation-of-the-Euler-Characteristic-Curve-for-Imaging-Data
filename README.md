@@ -34,8 +34,10 @@ Arguments:
 --width:        width of the input file. In case of batch mode, same width is assumed for every file under the directory.
 --depth:        depth of the input file. In case of 2D file, set depth to 0.
 </pre>
-An example command: <br/>
-`./GPU_ECC b C:/input_directory C:/output_directory 256 256 0` <br/>
+An example command:
+```command
+./GPU_ECC b C:/input_directory C:/output_directory 256 256 0` <br/>
+```
 The C++ binary is included in the Docker image—see the **Docker Image** section for details.
 
 ### Inputs/Outputs
