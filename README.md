@@ -40,3 +40,11 @@ Inside the Dokcer image, we provide:
 **Linux**
 - NVIDIA GPU + driver installed on the host.
 - NVIDIA Container Toolkit installed and configured for Docker.
+
+### Run Docker
+- Pull image: ```docker pull seravee08/gpuecc:latest```
+- Create container and enter shell (Replace PATH_TO_DATA with an absolute Windows path):
+```command
+docker run --name gpuecc -it --gpus=all -p 8888:8888 --mount type=bind,source="E:\WorkBench\GPU-ECC",target=/workspace -w /GPU-ECC --entrypoint /bin/bash seravee08/gpuecc:latest
+```
+
