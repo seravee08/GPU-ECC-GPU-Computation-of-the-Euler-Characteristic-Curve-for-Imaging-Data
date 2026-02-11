@@ -88,9 +88,17 @@ docker run --name gpuecc -it --gpus=all -p 8888:8888 --mount type=bind,source="P
 
 ## Compile from source
 
+Rquires **CUDA >= 12.6**.
+
 ### Windows 10/11
 
 ### Linux
+From the folder containing the source files and `Makefile`, run:
+
+```bash
+make -j
+```
+The executable will be generated at: build/GPU_ECC
 
 ## Citation ##
     @inproceedings{DBLP:conf/compgeom/0010W022,
