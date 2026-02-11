@@ -13,7 +13,7 @@ Install with
 ```bash
 pip install https://github.com/seravee08/GPU-ECC-GPU-Computation-of-the-Euler-Characteristic-Curve-for-Imaging-Data/raw/main/releases/gpuecc-0.1.0-cp312-cp312-linux_x86_64.whl
 ```
-
+A complete usage example is provided in the Google Colab section.
 
 
 - Python extension, installed with ```pip install https://github.com/seravee08/GPU-ECC-GPU-Computation-of-the-Euler-Characteristic-Curve-for-Imaging-Data/raw/main/releases/gpuecc-0.1.0-cp312-cp312-linux_x86_64.whl``` Detailed use of python extension can be found under "Google Colab" tab.
