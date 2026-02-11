@@ -12,20 +12,14 @@ We provide a **GPU-ECC-demo** notebook on Google Colab that demonstrates how to 
 The notebook provides a step-by-step workflow:
 
 1. **Environment setup**
-   - Installs the precompiled `topogpu` wheel for Python 3.12 on Linux.
-   - Installs `cripser` (which provides the `tcripser` interface).
+   - Installs the precompiled `gpu-ecc` wheel for Python 3.12 on Linux.
 
 2. **Data loading**
-   - Downloads a sample 3D grayscale volume (`.raw`) from this repository.
+   - Downloads a sample 2D Gaussian random field (`.dat`) from this repository.
+   - Downloads a sample 3D Gaussian random field (`.dat`) from this repository.
 
-3. **Running TopoGPU**
-   - Demonstrates `topogpu.create3D(...)` and explains its key parameters.
-   - Runs persistent homology on the sample volume and retrieves the resulting pairs.
+3. **Running GPU-ECC**
+   - Creates a 2D GPU-ECC instance and computes ECC from an input file path.
+   - Creates a 3D GPU-ECC instance and computes ECC from an input NumPy array.
+   - (Optional) Saves the results to a file.
 
-4. **Running Cubical Ripser (tcripser)**
-   - Computes persistence with `tcripser.computePH(...)` on the same volume.
-   - Extracts the persistence pairs from the `tcripser` output.
-
-5. **Result comparison**
-   - Compares TopoGPU and Cubical Ripser outputs (up to 3 decimal places).
-   - Reports any nontrivial persistence pairs that differ between the two methods.
