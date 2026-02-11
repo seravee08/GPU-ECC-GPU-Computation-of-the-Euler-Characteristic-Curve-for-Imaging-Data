@@ -3,7 +3,7 @@ CUDA-accelerated computation of Euler Characteristic Curves. <br/>
 Authors: Fan Wang, Hubert Wagner, Chao Chen <br/>
 Paper: [GPU Computation of the Euler Characteristic Curve for Imaging Data](https://arxiv.org/pdf/2203.09087.pdf)
 
-## Introduction ##
+## Introduction
 
 GPU-ECC is cross-platform (Windows and Linux) and requires only **CUDA >= 12.6** to compile and run. We provide prebuilt binaries in two forms:
 
@@ -31,6 +31,15 @@ Arguments:
 An example command: <br/>
 `./GPU_ECC b C:/input_directory C:/output_directory 256 256 0` <br/>
 The C++ binary is included in the Docker image—see the **Docker Image** section for details.
+
+### Inputs/Outputs
+GPU-ECC accepts files with floating numbers in binary form. The filename extension should be .dat. We use the following code snippet to write data that is used as test inputs for GPU ECC:
+```
+std::ofstream wstream(filename.c_str(), std::ios::out | std::ios::binary);
+for (size_t i = 0; i < size; i++) { float o = (float)data[i]; wstream.write((char*)&o, sizeof(float)); }
+wstream.close();
+```
+Some examples are provided under folder "data". ECC GPU writes the ECC results into .txt files.
 
 ## Google Colab
 
@@ -76,3 +85,31 @@ Inside the Dokcer image, we provide:
 ```command
 docker run --name gpuecc -it --gpus=all -p 8888:8888 --mount type=bind,source="PATH_TO_DATA",target=/workspace -w /GPU-ECC --entrypoint /bin/bash seravee08/gpuecc:latest
 ```
+
+## Compile from source
+
+### Windows 10/11
+
+### Linux
+
+## Citation ##
+    @inproceedings{DBLP:conf/compgeom/0010W022,
+      author    = {Fan Wang and
+                   Hubert Wagner and
+                   Chao Chen},
+      editor    = {Xavier Goaoc and
+                   Michael Kerber},
+      title     = {{GPU} Computation of the Euler Characteristic Curve for Imaging Data},
+      booktitle = {38th International Symposium on Computational Geometry, SoCG 2022,
+                   June 7-10, 2022, Berlin, Germany},
+      series    = {LIPIcs},
+      volume    = {224},
+      pages     = {64:1--64:16},
+      publisher = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+      year      = {2022},
+      url       = {https://doi.org/10.4230/LIPIcs.SoCG.2022.64},
+      doi       = {10.4230/LIPIcs.SoCG.2022.64},
+      timestamp = {Wed, 01 Jun 2022 17:01:01 +0200},
+      biburl    = {https://dblp.org/rec/conf/compgeom/0010W022.bib},
+      bibsource = {dblp computer science bibliography, https://dblp.org}
+}
