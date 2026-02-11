@@ -5,6 +5,7 @@ Paper: [GPU Computation of the Euler Characteristic Curve for Imaging Data](http
 
 ## Introduction
 ===============
+
 GPU-ECC is cross-platform (Windows and Linux) and requires only **CUDA >= 12.6** to compile and run. We provide prebuilt binaries in two forms:
 
 ### Python extension
