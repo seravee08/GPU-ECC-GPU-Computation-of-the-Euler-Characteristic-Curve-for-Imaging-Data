@@ -134,3 +134,16 @@ The executable will be generated at: build/GPU_ECC
       biburl    = {https://dblp.org/rec/conf/compgeom/0010W022.bib},
       bibsource = {dblp computer science bibliography, https://dblp.org}
       }
+
+      @article{Wang_Wagner_Chen_2023,
+      title     ={GPU computation of the Euler characteristic curve for imaging data},
+      volume    ={14},
+      url       ={https://jocg.org/index.php/jocg/article/view/4470},
+      DOI       ={10.20382/jocg.v14i2a2},
+      number    ={2}, 
+      journal   ={Journal of Computational Geometry},
+      author    ={Wang, Fan and Wagner, Hubert and Chen, Chao},
+      year      ={2023},
+      month     ={Dec.},
+      pages     ={3–25}
+      }
