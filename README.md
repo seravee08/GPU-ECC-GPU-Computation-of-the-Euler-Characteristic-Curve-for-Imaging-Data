@@ -5,7 +5,7 @@ Paper: [GPU Computation of the Euler Characteristic Curve for Imaging Data](http
 
 
 ## Google Colab
-=======================
+===============
 
 We provide a **GPU-ECC-demo** notebook on Google Colab that demonstrates how to use GPU-ECC.
 
