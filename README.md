@@ -4,7 +4,6 @@ Authors: Fan Wang, Hubert Wagner, Chao Chen <br/>
 Paper: [GPU Computation of the Euler Characteristic Curve for Imaging Data](https://arxiv.org/pdf/2203.09087.pdf)
 
 ## Introduction
-===============
 
 GPU-ECC is cross-platform (Windows and Linux) and requires only **CUDA >= 12.6** to compile and run. We provide prebuilt binaries in two forms:
 
@@ -41,7 +40,6 @@ An example command: <br/>
 
 
 ## Google Colab
-===============
 
 We provide a **GPU-ECC-demo** notebook on Google Colab that demonstrates how to use GPU-ECC.
 
@@ -62,7 +60,6 @@ The notebook provides a step-by-step workflow:
    - (Optional) Saves the results to a file.
 
 ## Docker Image
-===============
 
 Inside the Dokcer image, we provide:
 - Source code under ```:/GPU-ECC/source```
