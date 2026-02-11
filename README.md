@@ -22,14 +22,11 @@ GPU_ECC.exe [mode] [input] [output] [height] [width] [depth]
 Arguments:
 <pre>
 --mode:         GPU ECC can compute for a single file or for a batch of files. Use 's' for single mode or 'b' for batch mode.
-        --b1:   spend all gpu resources on a single file one by one, good for large files
-        --b2:   distribute gpu resources across several files, good for large number of small files
---input_name:   Path to a single file in single mode or a directory containing files in batch mode.
---output_name:  Path to a single flie in single mode or a directory in batch mode. In case of batch mode, the output file 
-                will have the same name as input file.
---height:       Height of the input file. In case of batch mode, same height is assumed for every file under the directory.
---width:        Width of the input file. In case of batch mode, same width is assumed for every file under the directory.
---depth:        Depth of the input file. In case of 2D file, set depth to 0.
+--input:        directory for batch mode, file for single mode
+--output:       directory for batch mode, file for single mode
+--height:       height of the input file. In case of batch mode, same height is assumed for every file under the directory.
+--width:        width of the input file. In case of batch mode, same width is assumed for every file under the directory.
+--depth:        depth of the input file. In case of 2D file, set depth to 0.
 </pre>
 An example command: <br/>
 `GPU_ECC.exe b1 C:/input_directory C:/output_directory 256 256 0` <br/>
