@@ -23,3 +23,20 @@ The notebook provides a step-by-step workflow:
    - Creates a 3D GPU-ECC instance and computes ECC from an input NumPy array.
    - (Optional) Saves the results to a file.
 
+## Docker Image
+
+Inside the Dokcer image, we provide:
+- Source code under ```:/GPU-ECC/source```
+- Compiled C++ binary: ```GPUECC```
+- Compiled Python extension: ```gpuecc.cpython-312-x86_64-linux-gnu.so```
+- A sample notebook demonstrating how to use GPU-ECC
+- Sample data
+
+### Prerequisites
+**Windows 10/11**
+- Docker Desktop with WSL 2 backend enabled.
+- NVIDIA GPU + up-to-date Windows NVIDIA driver.
+
+**Linux**
+- NVIDIA GPU + driver installed on the host.
+- NVIDIA Container Toolkit installed and configured for Docker.
