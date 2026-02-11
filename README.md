@@ -5,7 +5,7 @@ CUDA-accelerated computation of Euler Characteristic Curve
 
 A **TopoGPU-demo** notebook is provided to make it easy to try TopoGPU without installing it locally.
 
-
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/seravee08/GPU-ECC-GPU-Computation-of-the-Euler-Characteristic-Curve-for-Imaging-Data/blob/main/GPU-ECC-demo.ipynb)
 
 The notebook provides a step-by-step workflow:
 
